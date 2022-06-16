@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="img/foto-perfil.png">
+    <title>Portfólio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfólio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+    <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+    <header class="hearder-menu">
+        <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
+        <nav>
+            <!-- O Ul e o OL são as listas -->
+            <ul class="lista-menu">
+                <li>
+                    <a href="#formacao">Formação</a>
+                </li>
+                <li>
+                    <a href="#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
+
+    <main>
+        <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
+        <section class="principal">
+            <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
+            <article class="subcontainer-principal container">
+                <div>
+                    <img src="img/foto-perfil.png" alt="some text" width=260 height=260>
+                </div>
+                <div>
+                    <h1 class="nome-completo">Thammylin Manoelle</h1>
+                    <h2 class="profissao">Developer Front-end Junior jr </h2>
+                </div>
+                <div>
+                    <p>Bem vindo, ao meu portfólio!</p>
+                    <p>Como já foi visto me chamo Thammylin, um nome um pouco único, tenho 20 anos e atualmente trabalho
+                        como Aux. de e-commerce, mas sigo estudando programação por meios de cursos disponíveis e por
+                        iniciativas de apoio a programação. </p>
+                    <p>No momento estou focando os estudos para área do Front-end, consolidando Lógica de programação,
+                        porém sempre disposta a novos desafios.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="segundaria">
+            <article class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo"> Mário Bombassei Filho Prof</p>
+                            <a href="https://escolamariobombasseifilho.blogspot.com" target="_blank"
+                                class="lista-local">Mário Bombassei Filho Prof</a>
+                            <p class="lista-descricao"> Segundo Grau Completo </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo"> Minas programam</p>
+                            <p class="subtitulo-lista">Introdução á programação</p>
+                            <a href="http://minasprogramam.com/inscricoes-abertas-curso2021/" target="_blank"
+                                class="lista-local">Minas Programam</a>
+                            <p class="lista-descricao">
+                                Grade Curricular: <br> Lógica de Programação, UX, Front-end, Back-end, Projetos
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section class="wrapper-portfolio">
+            <article class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Cursos</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+
+                            <p class="lista-titulo"> Pretalab</p>
+                            <p class="subtitulo-lista">Ciclo Formativo Básico</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab /
+                                Olabi</a>
+                            <p class="lista-descricao">Módulos:
+                                CSS3 e HTML5, JavaScript, React e Autoconhecimento </p>
+                        </li>
+                        <li>
+                            <p class="lista-titulo">Curso em video</p>
+                            <p class="subtitulo-lista">HTML5 e CSS3: módulo 1 de 5</p>
+                            <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank" class="lista-local">Curso em video</a>
+                            <p class="lista-descricao">O Curso de HTML5 e CSS3 ensina a criar sites usando a linguagem de marcação 
+                                hipertexto (HTML) e folhas de estilo em cascata (CSS).</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="lista-footer">
+                <!-- aqui temos os nossos icones, dentro da nossa lista -->
+                <li><i class="fas fa-envelope-square estilo-icon" class="links"></i>mthammylin@gmail.com</li>
+                <li><i class="fab fa-linkedin estilo-icon"  class="links"></i>thammylin-manoelle</li>
+                <li><i class="fab fa-github-square estilo-icon"  class="links"></i>Thammylin</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
