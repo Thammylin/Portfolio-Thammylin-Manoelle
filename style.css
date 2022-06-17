@@ -72,9 +72,13 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-  
+    }
+
+  .foto-perfil{
+    width:300px; 
+    height:300px;
   }
-  
+
   .nome-completo{
       font-size: 36px;
       color: #9400D3;
@@ -166,10 +170,14 @@
   .estilo-icon{
       font-size: 32px;
       margin-right: 10px;
-      color:#bb6fc5;
+      color: #bb6fc5;
   }
   
   .links{
       text-decoration: none;
-      color: white;
+      color: #863892;
+  }
+
+  li {
+    margin-bottom: .5rem;
   }
