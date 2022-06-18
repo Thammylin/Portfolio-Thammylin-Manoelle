@@ -181,3 +181,10 @@
   li {
     margin-bottom: .5rem;
   }
+
+  @media only screen and (max-width: 622px) {
+    .lista-menu {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
